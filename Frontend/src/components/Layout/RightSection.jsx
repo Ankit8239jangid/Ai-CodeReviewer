@@ -42,7 +42,7 @@ function RightSection({ review, loading }) {
     const extractedCode = getCodeContent(review);
 
     return (
-        <div className="h-full md:w-1/2 w-full text-white p-4 border border-gray-700 rounded-2xl overflow-auto shadow-xl transition-all duration-300">
+        <div className="h-[90vh] md:w-1/2 w-full text-white p-4 border border-gray-700 rounded-2xl overflow-auto shadow-xl transition-all duration-300">
             {loading ? (
                 <Loding />
             ) : review ? (

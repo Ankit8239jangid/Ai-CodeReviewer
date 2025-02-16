@@ -4,7 +4,11 @@ import RightSection from '../RightSection';
 import axios from 'axios';
 
 function Main() {
-    const [code, setCode] = useState(`// Start Writing code and Chat from here`);
+    const [code, setCode] = useState(` const welcome = () => {
+        console.log("Welcome to the CodeReviewAI!");
+    };
+
+ welcome();`);
     const [review, setReview] = useState("");
     const [loading, setLoading] = useState(false);
 
