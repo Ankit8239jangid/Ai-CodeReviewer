@@ -1,5 +1,5 @@
 import React from 'react'
-import Main from './components/Layout/Main/Main'
+
 import Home from './components/HomePage/Home'
 
 
